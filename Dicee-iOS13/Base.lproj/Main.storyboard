@@ -15,9 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jBq-rS-hq1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jBq-rS-hq1">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="SyP-z5-xcZ">
                                 <rect key="frame" x="41" y="20" width="292" height="224"/>
@@ -45,6 +44,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jBq-rS-hq1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="4hu-Yv-EUj"/>
+                            <constraint firstItem="jBq-rS-hq1" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="cNP-a5-S7w"/>
+                            <constraint firstItem="jBq-rS-hq1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="efC-W8-zEu"/>
+                            <constraint firstItem="jBq-rS-hq1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xYn-o1-zrJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
